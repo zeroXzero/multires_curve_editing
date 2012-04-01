@@ -1,0 +1,9 @@
+Multiresolution analysis and wavelets provide useful and efficient tools for representing functions
+at multiple levels of detail. We are planning to implement a multiresolution curve representation,
+based on wavelets. The main advantage of such a representation is that it conveniently supports a
+variety of operations like smoothing a curve, editing the overall sweep of a curve while preserving
+its character. We present methods to implement continuous levels of smoothing as well as direct
+manipulation of the sweep of the curve. These manipulations are done based on the control points,
+which are defined by the user and it is done in such a way that the underlying properties of the
+curve are preserved. The multiresolution representation requires no extra storage beyond that of the
+original control points, and the algorithms using the representation are both simple and fast.
